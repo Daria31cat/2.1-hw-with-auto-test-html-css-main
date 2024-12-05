@@ -1,0 +1,147 @@
+* {
+    /* Свойства для сброса начальных стилей элементов */
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    /* Стили для хедера */
+    background-color: #2965F1;
+    height: 20px;
+    width: 1440px;
+    color: #fff;
+}
+
+header span {
+    /* Стили для текста в хедере IT-INCUBATOR */
+    color: #fff;
+    -webkit-text-stroke-color: 1px #000000;
+    width: 700px;
+    height: 20px;
+    text-align: justify;
+}
+
+.main-section {
+    /* Стили для первой секции */
+    background-color: #FAFAFF;
+    width: 1440px;
+    height: 1024px;
+}
+
+.main-title {
+    /* Стили для заголовка в первой секции */
+    color: #303030;
+    font-weight: bold;
+    stroke: #000000;
+    width: 700px;
+    height: 48px;
+    padding-top: 15px;
+}
+
+.main-text {
+    /* Стили для текста в первой секции */
+    color: #303030;
+    font-weight: bold;
+    stroke: #000000;
+}
+
+.main-image {
+
+    /* Стили для изображения в первой секции */
+    color: #fff;
+
+}
+
+.about-section {
+    /* Стили для второй секции */
+    width: 1440px;
+    height: 883px;
+}
+
+select {
+    /* Стили для выпадающего списка */
+    width: 150px;
+    height: 36px;
+    margin-top: 60px;
+}
+
+.section-title {
+    /* Стили для заголовков во второй секции */
+    width: 700;
+    height: 24px;
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.frameworks-list {
+    /* Стили для маркированного списка во второй секции */
+    background-color: #fff;
+    list-style-image: url(assets/images/solar_map-arrow-up-bold.png) ;
+    padding-left: 25px;
+}
+
+.books-list {
+    /* Стили для нумерованного списка во второй секции */
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+.label {
+    /* Стили для подписей чекбоксов */
+    background-color: #fff;
+}
+
+.text-field {
+    /* Стили для односточного поля ввода текста */
+    width: 330px;
+    height: 36px;
+}
+
+.btn {
+    /* Стили для кнопки */
+    width: 125px;
+    height: 36px;
+    background-color: #2965F1;
+    color: #fff;
+}
+
+.line {
+    /* Стили для линии */
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+table {
+    /* Стили для таблицы */
+    border-collapse: collapse;
+    width: 300px;
+    height: 196px;
+}
+
+th,
+td {
+    /* Стили для ячеек таблицы */
+    border: 1px solid #95A1BB;
+    text-align: center;
+}
+
+footer {
+    /* Стили для футера */
+    background-color: #A3A7FF4D;
+    width: 1440px;
+    height: 70px;
+}
+
+.footer-link {
+    /* Стили для футера */
+    width: 78px;
+    height: 17px;
+    text-decoration: none;
+    text-decoration-color: #FAFAFF;
+    align-items: center;
+}
