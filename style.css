@@ -33,7 +33,7 @@ header span {
 
 .main-title {
     /* Стили для заголовка в первой секции */
-    color: #303030 ;
+    color: rgb(48, 48, 48) ;
     font-weight: bold;
     stroke: #000000;
     width: 700px;
@@ -44,7 +44,7 @@ header span {
 
 .main-text {
     /* Стили для текста в первой секции */
-    color: #303030;
+    color: rgb(48, 48, 48);
     font-weight: bold;
     font-size: 18px;
     stroke: #000000;
@@ -70,18 +70,18 @@ select {
     font-weight: 150px;
     font-size: 36px;
     margin-top: 60px;
-    border: #303030 ;
+    border: rgb(48, 48, 48);
     border-radius: 0;
     background-repeat: no-repeat;
     padding: 60px;
-    color: #303030;
+    color: rgb(48, 48, 48);
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
+    color: rgb(48, 48, 48);
     margin-top: 0;
     margin-bottom: 25px;
 }
@@ -123,7 +123,7 @@ select {
 
 .line {
     /* Стили для линии */
-    border: 1px solid rgba(48, 48, 48, 0.3);
+    border: 1px solid rgb(48, 48, 48);
     font-weight: 1440px;
     font-size: 0px;
     margin: 60px 0px;
@@ -139,7 +139,7 @@ table {
 th,
 td {
     /* Стили для ячеек таблицы */
-    border: solid #95A1BB;
+    border: solid rgb(48, 48, 48);
     padding: 12px 15px;
     text-align: center;
 }
