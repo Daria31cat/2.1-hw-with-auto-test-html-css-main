@@ -128,10 +128,12 @@ table {
     /* Стили для таблицы */
 
     border: 1px solid #95a1bb;
-    border-collapse: collapse;
+    font-weight: 700;
     font-size: 14px;
     width: 400px;
     height: 196px;
+    border-collapse: collapse;
+
 }
 
 th,
