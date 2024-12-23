@@ -84,17 +84,32 @@ select {
 
 .label {
     /* Стили для подписей чекбоксов */
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    background: #fff;
+    fill: rgba(48, 48, 48, 0.3);
 }
 
 .text-field {
     /* Стили для односточного поля ввода текста */
-    color: #303030;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
 }
 
 .btn {
     /* Стили для кнопки */
-    background-color: #2965F1;
-    color: #FFFFFF;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
 }
 
 .line {
