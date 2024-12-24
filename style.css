@@ -37,12 +37,15 @@ header span {
 
 .main-title {
     /* Стили для заголовка в первой секции */
-    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
-
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .main-image {
@@ -71,17 +74,21 @@ select {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
+    width: 80px;
+    height: 57px;
     list-style-image: url(solar_map-arrow-up-bold.svg);
-    padding: 0 0 0 20px;
+    padding: 0px 20px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
+    width: 670px;
+    height: 57px;
     padding: 0px 20px;
 }
 
