@@ -60,6 +60,7 @@ header span {
     /* Стили для второй секции */
     background-color: #FFFFFF;
     padding: 100px 0;
+    background-repeat: no-repeat;
 }
 
 select {
@@ -67,14 +68,13 @@ select {
     width: 150px;
     height: 36px;
     margin-top: 50px;
-
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
@@ -87,8 +87,6 @@ select {
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    width: 670px;
-    height: 57px;
     padding: 0px 20px;
 }
 
